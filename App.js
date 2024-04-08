@@ -20,9 +20,9 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('./assets/backgournd.png')} style={styles.backgroundImage}>
+      <ImageBackground source={require('./assets/anhbia.jpg')} style={styles.backgroundImage}>
         <View style={styles.overlay}>
-          <Image source={require('./assets/luffy.png')} style={styles.logo} />
+          <Image source={require('./assets/anhlogo.jpg')} style={styles.logo} />
           <TextInput
             style={styles.input}
             placeholder="Username"
